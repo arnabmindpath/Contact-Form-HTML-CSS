@@ -1,0 +1,17 @@
+body{
+    background-color: #4a4935;
+}
+
+.col-1 {display: flex; margin-top: 50px; width: 900px; justify-content: space-between; margin-left: 50px;}
+.form-1{padding-top: 20px;}
+.form-2{margin-top: 0;}
+.form-2 h2 {font-size: 30px; color: #fff; font-family: Arial, Helvetica, sans-serif;}
+#email {height: 35px; width: 400px; background: #4a4935; color: #eaddb4; font-style: ariel sans; font-family: Arial, Helvetica, sans-serif; font-weight: 600; font-size: 15px ; border: 0px;
+    border-bottom: 2px solid #fff;}
+#submit-btn { background: none; color: #eaddb4; border: none; font-size: 19px; }
+input:focus { outline:none; }
+.social { padding-top: 15px; }
+.copyright p {color: #eaddb4; padding-top: 40px;}
+.radio-btn{display: inline-flex; align-items: center;}
+.radio-btn label {padding-right: 15px; padding-left: 8px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #eaddb4;}
+input[type="radio"] {height: 20px; width: 20px; }
