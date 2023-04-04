@@ -1,17 +1,34 @@
-body{
-    background-color: #4a4935;
-}
+/*Main Div Col-1*/
+.col-1 {display: flex;  width: 900px; justify-content: space-between; background-color: #4a4935; padding: 30px; flex-direction: row;}
 
-.col-1 {display: flex; margin-top: 50px; width: 900px; justify-content: space-between; margin-left: 50px;}
+
+/*Child Div Form-1*/
 .form-1{padding-top: 20px;}
-.form-2{margin-top: 0;}
-.form-2 h2 {font-size: 30px; color: #fff; font-family: Arial, Helvetica, sans-serif;}
 #email {height: 35px; width: 400px; background: #4a4935; color: #eaddb4; font-style: ariel sans; font-family: Arial, Helvetica, sans-serif; font-weight: 600; font-size: 15px ; border: 0px;
     border-bottom: 2px solid #fff;}
 #submit-btn { background: none; color: #eaddb4; border: none; font-size: 19px; }
 input:focus { outline:none; }
-.social { padding-top: 15px; }
-.copyright p {color: #eaddb4; padding-top: 40px;}
+.social { padding-top: 30px; }
+.copyright p {color: #fff; padding-top: 40px; font-size: 17px; letter-spacing: 0.5px;}
+
+
+/*Child Div Form-2*/
+.form-2{margin-top: 0;}
+.form-2 h2 {font-size: 30px; color: #fff; font-family: Arial, Helvetica, sans-serif;}
 .radio-btn{display: inline-flex; align-items: center;}
 .radio-btn label {padding-right: 15px; padding-left: 8px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #eaddb4;}
-input[type="radio"] {height: 20px; width: 20px; }
+input[type="radio"] {height: 20px; width: 20px;}
+input[type="radio"] {background: red;}
+#message {height: 90px; width: 400px; background: #4a4935; color: #eaddb4; font-style: ariel sans; font-family: Arial, Helvetica, sans-serif; font-weight: 600; font-size: 15px ; border: 0px;
+    border-bottom: 2px solid #fff; padding-top: 30px;}
+#submit-btn-1 { padding: 15px 90px 15px 90px; background: #eaddb4; color: #4a4935; font-size: 18px; border: none; border-radius: 30px; }
+
+
+/* (320x480) iPhone (Original, 3G, 3GS) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .col-1 {flex-direction: column-reverse; width: 400px;}
+    .form-1{margin-top: 50px;}
+    #email {width: 310px;}
+    #message {width: 310px;}
+    #submit-btn-1 { padding: 10px 50px 10px 50px; background: #eaddb4; color: #4a4935; font-size: 18px; border: none; border-radius: 30px; }
+}
