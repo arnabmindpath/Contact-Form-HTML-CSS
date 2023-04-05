@@ -8,9 +8,9 @@
 .form-1{padding-top: 20px;}
 #email {height: 35px; width: 400px; background: #4a4935; color: #eaddb4; font-style: ariel sans; font-family: Arial, Helvetica, sans-serif; font-weight: 600; font-size: 15px ; border: 0px;
     border-bottom: 2px solid #fff;}
-#submit-btn { background: none; color: #eaddb4; border: none; font-size: 19px; }
-input:focus { outline:none; }
-.social { padding-top: 30px; }
+#submit-btn { background: none; color: #eaddb4; border: none; font-size: 19px; cursor: pointer; }
+input:focus { outline:none !important; }
+.social { padding-top: 30px; cursor: pointer; }
 .copyright p {color: #fff; padding-top: 40px; font-size: 17px; letter-spacing: 0.5px;}
 
 
@@ -23,14 +23,14 @@ input[type="radio"] {height: 20px; width: 20px;}
 input[type="radio"] {background: red;}
 #message {height: 90px; width: 400px; background: #4a4935; color: #eaddb4; font-style: ariel sans; font-family: Arial, Helvetica, sans-serif; font-weight: 600; font-size: 15px ; border: 0px;
     border-bottom: 2px solid #fff; padding-top: 30px;}
-#submit-btn-1 { padding: 15px 90px 15px 90px; background: #eaddb4; color: #4a4935; font-size: 18px; border: none; border-radius: 30px; }
+#submit-btn-1 { padding: 15px 90px 15px 90px; background: #eaddb4; color: #4a4935; font-size: 18px; border: none; border-radius: 30px; cursor: pointer;}
 
 
 /* (320x480) iPhone (Original, 3G, 3GS) */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    .col-1 {flex-direction: column-reverse; width: 400px;}
+    .col-1 {flex-direction: column; width: 400px;}
     .form-1{margin-top: 50px;}
     #email {width: 310px;}
     #message {width: 310px;}
-    #submit-btn-1 { padding: 10px 50px 10px 50px; background: #eaddb4; color: #4a4935; font-size: 18px; border: none; border-radius: 30px; }
+    #submit-btn-1 { padding: 10px 50px 10px 50px; background: #eaddb4; color: #4a4935; font-size: 18px; border: none; border-radius: 30px; cursor: pointer;}
 }
